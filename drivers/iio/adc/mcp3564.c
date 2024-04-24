@@ -707,7 +707,7 @@ static const struct mcp3564_chip_info mcp3564_chip_infos_tbl[] = {
 		.name = "mcp3461r",
 		.num_channels = 6,
 		.resolution = 16,
-		.have_vref = false,
+		.have_vref = true,
 	},
 	[mcp3462r] = {
 		.name = "mcp3462r",
